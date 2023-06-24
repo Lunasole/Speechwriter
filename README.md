@@ -7,4 +7,4 @@ It's defined to use cyrillic languages (at least in lyrics mode that's hardcoded
 Here are the sources as is (except some auxillary tools), dictionaries used are present within binaries.
 
 [RU]
-Генератор текстов и стихов, "экстракт русского мира" :)
+Р“РµРЅРµСЂР°С‚РѕСЂ С‚РµРєСЃС‚РѕРІ Рё СЃС‚РёС…РѕРІ, "СЌРєСЃС‚СЂР°РєС‚ СЂСѓСЃСЃРєРѕРіРѕ РјРёСЂР°" :)
