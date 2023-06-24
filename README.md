@@ -1,0 +1,2 @@
+# Speechwriter
+ Text&Lyrics generator
