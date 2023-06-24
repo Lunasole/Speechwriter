@@ -6,5 +6,5 @@ Option Explicit
 #Const OnLyric = Not IsPublic
 
 #If Not IsPublic Then
-    Const uName As String = "" '" Имя Чувака"
+    Const uName As String = "" '" РРјСЏ Р§СѓРІР°РєР°"
 #End If

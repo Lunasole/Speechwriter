@@ -1,4 +1,4 @@
-Attribute VB_Name = "modL"
+﻿Attribute VB_Name = "modL"
 Option Explicit
 Const LifeX As Long = 30
 Const LifeY As Long = 120

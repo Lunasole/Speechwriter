@@ -1,4 +1,4 @@
-Attribute VB_Name = "modSysT"
+п»їAttribute VB_Name = "modSysT"
 '**********************************************************
 'EXAMPLE CODE HERE
 'Move it to one of your modules
@@ -67,7 +67,7 @@ If msg = WM_TrayAction Then 'Tray message
             With frmMain
                 .mnuTrayGen.Visible = .AutoGen = 0
                 .mnuTrayGenA.Visible = Not .mnuTrayGen.Visible
-'                .mnuTrayGen.Caption = IIf(.AutoGen = 0, "Текст", "[авто-текст]")
+'                .mnuTrayGen.Caption = IIf(.AutoGen = 0, "РўРµРєСЃС‚", "[Р°РІС‚Рѕ-С‚РµРєСЃС‚]")
                 If .AutoGen = 0 Then
                     Dim TInt As CommandButton
                     Dim TMnu As Integer

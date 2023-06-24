@@ -6,7 +6,7 @@ Declare Sub CopyMemory Lib "kernel32.dll" Alias "RtlMoveMemory" (hpvDest As Any,
 'Public Sub test()
 'Dim NFF As String
 'Dim TFF As String
-'    TFF = Space$(444) '"123Test—ÛÍ‡“ÂÒÚ¡Îˇ"
+'    TFF = Space$(444) '"123Test–°—É–∫–∞–¢–µ—Å—Ç–ë–ª—è"
 '
 'Dim ArrB() As Byte
 '

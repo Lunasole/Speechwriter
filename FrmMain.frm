@@ -1,4 +1,4 @@
-VERSION 5.00
+п»їVERSION 5.00
 Begin VB.Form frmMain 
    BackColor       =   &H80000005&
    BorderStyle     =   4  'Fixed ToolWindow
@@ -35,7 +35,7 @@ Begin VB.Form frmMain
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Опечатки"
+      Caption         =   "РћРїРµС‡Р°С‚РєРё"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -50,7 +50,7 @@ Begin VB.Form frmMain
       Left            =   3150
       TabIndex        =   35
       TabStop         =   0   'False
-      ToolTipText     =   "Не деай этого, ссука"
+      ToolTipText     =   "РќРµ РґРµР°Р№ СЌС‚РѕРіРѕ, СЃСЃСѓРєР°"
       Top             =   4350
       Width           =   1185
    End
@@ -70,7 +70,7 @@ Begin VB.Form frmMain
       Index           =   0
       Left            =   6600
       TabIndex        =   11
-      ToolTipText     =   "Получить рифмующиеся слова"
+      ToolTipText     =   "РџРѕР»СѓС‡РёС‚СЊ СЂРёС„РјСѓСЋС‰РёРµСЃСЏ СЃР»РѕРІР°"
       Top             =   3960
       Width           =   405
    End
@@ -114,7 +114,7 @@ Begin VB.Form frmMain
       Left            =   30
       ScrollBars      =   2  'Vertical
       TabIndex        =   10
-      ToolTipText     =   "Типа консолька, можно даже пердолиться."
+      ToolTipText     =   "РўРёРїР° РєРѕРЅСЃРѕР»СЊРєР°, РјРѕР¶РЅРѕ РґР°Р¶Рµ РїРµСЂРґРѕР»РёС‚СЊСЃСЏ."
       Top             =   3960
       Width           =   6555
    End
@@ -134,7 +134,7 @@ Begin VB.Form frmMain
       Index           =   2
       Left            =   7440
       TabIndex        =   13
-      ToolTipText     =   "Генерация по заданному сиду"
+      ToolTipText     =   "Р“РµРЅРµСЂР°С†РёСЏ РїРѕ Р·Р°РґР°РЅРЅРѕРјСѓ СЃРёРґСѓ"
       Top             =   3960
       Width           =   405
    End
@@ -154,7 +154,7 @@ Begin VB.Form frmMain
       Index           =   1
       Left            =   7020
       TabIndex        =   12
-      ToolTipText     =   "Получить рифмующиеся строки"
+      ToolTipText     =   "РџРѕР»СѓС‡РёС‚СЊ СЂРёС„РјСѓСЋС‰РёРµСЃСЏ СЃС‚СЂРѕРєРё"
       Top             =   3960
       Width           =   405
    End
@@ -175,7 +175,7 @@ Begin VB.Form frmMain
       Left            =   2340
       TabIndex        =   25
       TabStop         =   0   'False
-      ToolTipText     =   "Превращение некоторых слов в другие"
+      ToolTipText     =   "РџСЂРµРІСЂР°С‰РµРЅРёРµ РЅРµРєРѕС‚РѕСЂС‹С… СЃР»РѕРІ РІ РґСЂСѓРіРёРµ"
       Top             =   4350
       Width           =   705
    End
@@ -221,14 +221,14 @@ Begin VB.Form frmMain
       Left            =   7920
       TabIndex        =   20
       TabStop         =   0   'False
-      ToolTipText     =   "Копировать в UTF-8. Если ОС виста/спермерка или выше, вроде как обязательно."
+      ToolTipText     =   "РљРѕРїРёСЂРѕРІР°С‚СЊ РІ UTF-8. Р•СЃР»Рё РћРЎ РІРёСЃС‚Р°/СЃРїРµСЂРјРµСЂРєР° РёР»Рё РІС‹С€Рµ, РІСЂРѕРґРµ РєР°Рє РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ."
       Top             =   360
       Value           =   1  'Checked
       Width           =   1065
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Кэш"
+      Caption         =   "РљСЌС€"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -243,7 +243,7 @@ Begin VB.Form frmMain
       Left            =   7920
       TabIndex        =   21
       TabStop         =   0   'False
-      ToolTipText     =   "Избегает недавно использованных фраз, если уникальных строк достаточно"
+      ToolTipText     =   "РР·Р±РµРіР°РµС‚ РЅРµРґР°РІРЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°РЅРЅС‹С… С„СЂР°Р·, РµСЃР»Рё СѓРЅРёРєР°Р»СЊРЅС‹С… СЃС‚СЂРѕРє РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ"
       Top             =   720
       Value           =   1  'Checked
       Width           =   1035
@@ -265,14 +265,14 @@ Begin VB.Form frmMain
       Left            =   7920
       TabIndex        =   19
       TabStop         =   0   'False
-      ToolTipText     =   "Автоматически копировать"
+      ToolTipText     =   "РђРІС‚РѕРјР°С‚РёС‡РµСЃРєРё РєРѕРїРёСЂРѕРІР°С‚СЊ"
       Top             =   0
       Value           =   1  'Checked
       Width           =   1065
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "а < a"
+      Caption         =   "Р° < a"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -287,7 +287,7 @@ Begin VB.Form frmMain
       Left            =   7920
       TabIndex        =   22
       TabStop         =   0   'False
-      ToolTipText     =   "Замена некоторых символов кириллицы на латиницу, иногда полезно"
+      ToolTipText     =   "Р—Р°РјРµРЅР° РЅРµРєРѕС‚РѕСЂС‹С… СЃРёРјРІРѕР»РѕРІ РєРёСЂРёР»Р»РёС†С‹ РЅР° Р»Р°С‚РёРЅРёС†Сѓ, РёРЅРѕРіРґР° РїРѕР»РµР·РЅРѕ"
       Top             =   1050
       Width           =   1035
    End
@@ -305,7 +305,7 @@ Begin VB.Form frmMain
       Left            =   30
       ScrollBars      =   2  'Vertical
       TabIndex        =   15
-      ToolTipText     =   "Эпилог,  \n = новая строка"
+      ToolTipText     =   "Р­РїРёР»РѕРі,  \n = РЅРѕРІР°СЏ СЃС‚СЂРѕРєР°"
       Top             =   4650
       Width           =   645
    End
@@ -323,7 +323,7 @@ Begin VB.Form frmMain
       Left            =   30
       ScrollBars      =   2  'Vertical
       TabIndex        =   14
-      ToolTipText     =   "Пролог,  \n = новая строка"
+      ToolTipText     =   "РџСЂРѕР»РѕРі,  \n = РЅРѕРІР°СЏ СЃС‚СЂРѕРєР°"
       Top             =   4305
       Width           =   645
    End
@@ -491,7 +491,7 @@ Begin VB.Form frmMain
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Энтропия"
+      Caption         =   "Р­РЅС‚СЂРѕРїРёСЏ"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -506,7 +506,7 @@ Begin VB.Form frmMain
       Left            =   6660
       TabIndex        =   34
       TabStop         =   0   'False
-      ToolTipText     =   "Вечное сияние чистого рандома"
+      ToolTipText     =   "Р’РµС‡РЅРѕРµ СЃРёСЏРЅРёРµ С‡РёСЃС‚РѕРіРѕ СЂР°РЅРґРѕРјР°"
       Top             =   4710
       Width           =   1275
    End
@@ -527,14 +527,14 @@ Begin VB.Form frmMain
       Left            =   780
       TabIndex        =   29
       TabStop         =   0   'False
-      ToolTipText     =   "Отключить CAPSLOCK"
+      ToolTipText     =   "РћС‚РєР»СЋС‡РёС‚СЊ CAPSLOCK"
       Top             =   4710
       Value           =   1  'Checked
       Width           =   585
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Куклотеги"
+      Caption         =   "РљСѓРєР»РѕС‚РµРіРё"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -549,13 +549,13 @@ Begin VB.Form frmMain
       Left            =   5340
       TabIndex        =   33
       TabStop         =   0   'False
-      ToolTipText     =   "Классические теги: **%%"
+      ToolTipText     =   "РљР»Р°СЃСЃРёС‡РµСЃРєРёРµ С‚РµРіРё: **%%"
       Top             =   4710
       Width           =   1215
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Хаос"
+      Caption         =   "РҐР°РѕСЃ"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -570,7 +570,7 @@ Begin VB.Form frmMain
       Left            =   4440
       TabIndex        =   32
       TabStop         =   0   'False
-      ToolTipText     =   "Загрузка..."
+      ToolTipText     =   "Р—Р°РіСЂСѓР·РєР°..."
       Top             =   4710
       Width           =   795
    End
@@ -591,13 +591,13 @@ Begin VB.Form frmMain
       Left            =   2340
       TabIndex        =   30
       TabStop         =   0   'False
-      ToolTipText     =   "Большие проблемы с речью..."
+      ToolTipText     =   "Р‘РѕР»СЊС€РёРµ РїСЂРѕР±Р»РµРјС‹ СЃ СЂРµС‡СЊСЋ..."
       Top             =   4710
       Width           =   705
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "§"
+      Caption         =   "В§"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -612,7 +612,7 @@ Begin VB.Form frmMain
       Left            =   780
       TabIndex        =   23
       TabStop         =   0   'False
-      ToolTipText     =   "Больше единого разрыва"
+      ToolTipText     =   "Р‘РѕР»СЊС€Рµ РµРґРёРЅРѕРіРѕ СЂР°Р·СЂС‹РІР°"
       Top             =   4350
       Value           =   1  'Checked
       Width           =   585
@@ -634,14 +634,14 @@ Begin VB.Form frmMain
       Left            =   1470
       TabIndex        =   24
       TabStop         =   0   'False
-      ToolTipText     =   "Пунктуация"
+      ToolTipText     =   "РџСѓРЅРєС‚СѓР°С†РёСЏ"
       Top             =   4350
       Value           =   1  'Checked
       Width           =   765
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Омск"
+      Caption         =   "РћРјСЃРє"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -662,7 +662,7 @@ Begin VB.Form frmMain
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Разметка"
+      Caption         =   "Р Р°Р·РјРµС‚РєР°"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -677,13 +677,13 @@ Begin VB.Form frmMain
       Left            =   5340
       TabIndex        =   27
       TabStop         =   0   'False
-      ToolTipText     =   "Теги вида [b][i][u]"
+      ToolTipText     =   "РўРµРіРё РІРёРґР° [b][i][u]"
       Top             =   4350
       Width           =   1215
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "Лирика"
+      Caption         =   "Р›РёСЂРёРєР°"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -698,13 +698,13 @@ Begin VB.Form frmMain
       Left            =   6660
       TabIndex        =   28
       TabStop         =   0   'False
-      ToolTipText     =   "Ехал быдло через быдло - быдло быдло быдло быдло"
+      ToolTipText     =   "Р•С…Р°Р» Р±С‹РґР»Рѕ С‡РµСЂРµР· Р±С‹РґР»Рѕ - Р±С‹РґР»Рѕ Р±С‹РґР»Рѕ Р±С‹РґР»Рѕ Р±С‹РґР»Рѕ"
       Top             =   4350
       Width           =   1275
    End
    Begin VB.CheckBox opt 
       BackColor       =   &H80000005&
-      Caption         =   "аАа"
+      Caption         =   "Р°РђР°"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -719,7 +719,7 @@ Begin VB.Form frmMain
       Left            =   1470
       TabIndex        =   31
       TabStop         =   0   'False
-      ToolTipText     =   "СлУЧайнЫй рЕГистР"
+      ToolTipText     =   "РЎР»РЈР§Р°Р№РЅР«Р№ СЂР•Р“РёСЃС‚Р "
       Top             =   4710
       Width           =   765
    End
@@ -763,26 +763,26 @@ Begin VB.Form frmMain
       Caption         =   ".."
       Visible         =   0   'False
       Begin VB.Menu mnuOpen 
-         Caption         =   "Открыть "
+         Caption         =   "РћС‚РєСЂС‹С‚СЊ "
       End
       Begin VB.Menu mnuReload 
-         Caption         =   "Перезагрузить"
+         Caption         =   "РџРµСЂРµР·Р°РіСЂСѓР·РёС‚СЊ"
       End
       Begin VB.Menu mnuClean 
-         Caption         =   "Форматировать файл"
+         Caption         =   "Р¤РѕСЂРјР°С‚РёСЂРѕРІР°С‚СЊ С„Р°Р№Р»"
       End
       Begin VB.Menu mnuDiv0 
          Caption         =   "-"
       End
       Begin VB.Menu mnuChangeSource 
-         Caption         =   "Сменить базу"
+         Caption         =   "РЎРјРµРЅРёС‚СЊ Р±Р°Р·Сѓ"
          Begin VB.Menu mnuFileEn 
-            Caption         =   "[SW: стандартный]"
+            Caption         =   "[SW: СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№]"
             Index           =   1
             Visible         =   0   'False
          End
          Begin VB.Menu mnuFileEn 
-            Caption         =   "[SW: треш]"
+            Caption         =   "[SW: С‚СЂРµС€]"
             Index           =   2
          End
          Begin VB.Menu mnuFileEn 
@@ -890,40 +890,40 @@ Begin VB.Form frmMain
          End
       End
       Begin VB.Menu mnuImport 
-         Caption         =   "Создать базу"
+         Caption         =   "РЎРѕР·РґР°С‚СЊ Р±Р°Р·Сѓ"
       End
       Begin VB.Menu mnuDiv2 
          Caption         =   "-"
       End
       Begin VB.Menu mnuSave 
-         Caption         =   "Сохранить в ""+out.txt"""
+         Caption         =   "РЎРѕС…СЂР°РЅРёС‚СЊ РІ ""+out.txt"""
       End
       Begin VB.Menu mnuOut 
-         Caption         =   "Открыть ""+out.txt"""
+         Caption         =   "РћС‚РєСЂС‹С‚СЊ ""+out.txt"""
       End
       Begin VB.Menu mnuDiv3 
          Caption         =   "-"
       End
       Begin VB.Menu mnuAbout 
-         Caption         =   "О программе"
+         Caption         =   "Рћ РїСЂРѕРіСЂР°РјРјРµ"
       End
    End
    Begin VB.Menu mnuTray 
       Caption         =   ">"
       Visible         =   0   'False
       Begin VB.Menu mnuTrayShow 
-         Caption         =   "Развернуть"
+         Caption         =   "Р Р°Р·РІРµСЂРЅСѓС‚СЊ"
       End
       Begin VB.Menu mnuTrayDiv00 
          Caption         =   "-"
       End
       Begin VB.Menu mnuTrayGenA 
-         Caption         =   "[ Авто ]"
+         Caption         =   "[ РђРІС‚Рѕ ]"
          Enabled         =   0   'False
          Visible         =   0   'False
       End
       Begin VB.Menu mnuTrayGen 
-         Caption         =   "Сгенерировать"
+         Caption         =   "РЎРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ"
          Begin VB.Menu mnuTrayGenT 
             Caption         =   ""
             Index           =   0
@@ -965,10 +965,10 @@ Begin VB.Form frmMain
          Caption         =   "-"
       End
       Begin VB.Menu mnuTrayExit 
-         Caption         =   "Выход"
+         Caption         =   "Р’С‹С…РѕРґ"
       End
       Begin VB.Menu mnuTrayNothing 
-         Caption         =   "Ничего..."
+         Caption         =   "РќРёС‡РµРіРѕ..."
       End
    End
 End
@@ -1192,7 +1192,7 @@ On Local Error Resume Next
 End Sub
 
 Private Sub imgRandom_DblClick()
-    If Not MainTray.Add(Me.hwnd, hIcon, App.Title & IIf(AutoGen = 0, vbNullString, ": АКТИВИРОВАН"), 1&) = 0& Then
+    If Not MainTray.Add(Me.hwnd, hIcon, App.Title & IIf(AutoGen = 0, vbNullString, ": РђРљРўРР’РР РћР’РђРќ"), 1&) = 0& Then
         Me.Visible = False
     End If
 End Sub
@@ -1232,7 +1232,7 @@ Private Sub mnuFileEn_Click(Index As Integer)
 End Sub
 
 Private Sub mnuImport_Click()
-    MsgBox "Перетащите текстовый файл с проводника в окно программы.", vbInformation
+    MsgBox "РџРµСЂРµС‚Р°С‰РёС‚Рµ С‚РµРєСЃС‚РѕРІС‹Р№ С„Р°Р№Р» СЃ РїСЂРѕРІРѕРґРЅРёРєР° РІ РѕРєРЅРѕ РїСЂРѕРіСЂР°РјРјС‹.", vbInformation
 End Sub
 
 
@@ -1280,11 +1280,11 @@ Dim TLNG As Long
         IWord = UCase$(IWord)
         
         
-        If Not RyphmString Then 'получить рифмующиеся к слову слова
+        If Not RyphmString Then 'РїРѕР»СѓС‡РёС‚СЊ СЂРёС„РјСѓСЋС‰РёРµСЃСЏ Рє СЃР»РѕРІСѓ СЃР»РѕРІР°
             SeekCount = fc_RyphmWord(IWord, 3&, SeekResults, True, 6000)
                 If Not SeekCount = -1& Then
                     For TLNG = 0& To 32&
-                        NRyphm = IWord & " — " & SeekResults(RNDINT(SeekCount)) & vbNewLine
+                        NRyphm = IWord & " вЂ” " & SeekResults(RNDINT(SeekCount)) & vbNewLine
                         
                         If InStr(1&, Result, NRyphm, vbBinaryCompare) = 0& Then
                                 ResultB = ResultB + 1&
@@ -1299,7 +1299,7 @@ Dim TLNG As Long
                 SeekCount = fc_RyphmWord(IWord, 2&, SeekResults, True, 6000)
                     If Not SeekCount = -1& Then
                         For TLNG = 0& To 64&
-                            NRyphm = IWord & " — " & SeekResults(RNDINT(SeekCount)) & vbNewLine
+                            NRyphm = IWord & " вЂ” " & SeekResults(RNDINT(SeekCount)) & vbNewLine
                             
                             If InStr(1&, Result, NRyphm, vbBinaryCompare) = 0& Then
                                 ResultB = ResultB + 1&
@@ -1311,7 +1311,7 @@ Dim TLNG As Long
                         Next TLNG
                     End If
             End If
-        Else 'получить рифмующиеся к слову фразы
+        Else 'РїРѕР»СѓС‡РёС‚СЊ СЂРёС„РјСѓСЋС‰РёРµСЃСЏ Рє СЃР»РѕРІСѓ С„СЂР°Р·С‹
             ''Get all available ryphms by 3 sym
             SeekCount = fc_RyphmLine(IWord, 3&, SeekResultsL(), 31&)
                 If Not SeekCount = -1& Then
@@ -1347,9 +1347,9 @@ Dim TLNG As Long
         If Not Len(Result) = 0& Then
             MainOut Result, vbLeftJustify
         Else
-            MainOut "Очень жаль, но не нашлось СЛОВА, брат.", vbLeftJustify
+            MainOut "РћС‡РµРЅСЊ Р¶Р°Р»СЊ, РЅРѕ РЅРµ РЅР°С€Р»РѕСЃСЊ РЎР›РћР’Рђ, Р±СЂР°С‚.", vbLeftJustify
         End If
-        MainOut IWord & vbNewLine & String(IIf(Len(IWord) <= 10, Len(IWord), 10), "—") & vbNewLine & txtMain.Text, vbLeftJustify
+        MainOut IWord & vbNewLine & String(IIf(Len(IWord) <= 10, Len(IWord), 10), "вЂ”") & vbNewLine & txtMain.Text, vbLeftJustify
     End If
 End Sub
 
@@ -1359,12 +1359,12 @@ Dim FText As String
     On Local Error Resume Next
     FName = App.Path & "\+out.txt"
     FText = "# " & Right$("0000" & Year(Date), 4&) & "/" & Right$("00" & Month(Date), 2&) & "/" & Right$("00" & Day(Now), 2) & " " & Right$("00" & Hour(Time), 2) & ":" & Right$("00" & Minute(Time), 2) & ":" & Right$("00" & Second(Time), 2)
-    FText = String$(16&, "—") & FText & " #" & String$(16&, "—") & vbNewLine & txtMain.Text & vbNewLine & vbNewLine
+    FText = String$(16&, "вЂ”") & FText & " #" & String$(16&, "вЂ”") & vbNewLine & txtMain.Text & vbNewLine & vbNewLine
     Open FName For Binary As 1
         Put 1, LOF(1) + 1&, FText
     Close 1
     If Not Err.Number = 0 Then
-        MainOut "Ошибка сохранения: " & vbNewLine & Err.Description, vbCenter
+        MainOut "РћС€РёР±РєР° СЃРѕС…СЂР°РЅРµРЅРёСЏ: " & vbNewLine & Err.Description, vbCenter
     End If
 End Sub
 
@@ -1465,10 +1465,10 @@ Dim tChrB As Byte
 Dim Tstr$
 
     If Data.Files.Count = 0 Then Exit Sub
-    If Not MsgBox("Импортировать полученные файлы?" & " (" & Data.Files.Count & ")", vbExclamation + vbYesNo + vbDefaultButton1) = vbYes Then Exit Sub
+    If Not MsgBox("РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїРѕР»СѓС‡РµРЅРЅС‹Рµ С„Р°Р№Р»С‹?" & " (" & Data.Files.Count & ")", vbExclamation + vbYesNo + vbDefaultButton1) = vbYes Then Exit Sub
 
     For TFile = 1& To Data.Files.Count
-        MainOut "Импорт файла " & TFile & " / " & Data.Files.Count & "...", vbCenter
+        MainOut "РРјРїРѕСЂС‚ С„Р°Р№Р»Р° " & TFile & " / " & Data.Files.Count & "...", vbCenter
         'in file
         iFile = Data.Files(TFile)
         
@@ -1532,7 +1532,7 @@ Dim Tstr$
         End If
         End If
     Next TFile
-    MainOut "Импорт файлов завершен", vbCenter
+    MainOut "РРјРїРѕСЂС‚ С„Р°Р№Р»РѕРІ Р·Р°РІРµСЂС€РµРЅ", vbCenter
     SW_OpState = 0
 End Sub
 
@@ -1577,7 +1577,7 @@ End Sub
 Private Sub TmrAUX_Timer()
     Dim FullRandom As Boolean
 
-    'реализация задержки с использованием GetTickCount. State = True когда срабатывает задержка.
+    'СЂРµР°Р»РёР·Р°С†РёСЏ Р·Р°РґРµСЂР¶РєРё СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј GetTickCount. State = True РєРѕРіРґР° СЃСЂР°Р±Р°С‚С‹РІР°РµС‚ Р·Р°РґРµСЂР¶РєР°.
         Dim Tick As Long: Tick = GetTickCount()
         Dim State As Boolean
         Static Trigger As Long
@@ -1641,7 +1641,7 @@ End Sub
 
 
 
-'процедура генерации текста
+'РїСЂРѕС†РµРґСѓСЂР° РіРµРЅРµСЂР°С†РёРё С‚РµРєСЃС‚Р°
 Public Sub SHIT(ByVal Cnt As Long, Optional ByRef USEED As Long)
 On Error Resume Next
 If Not SW_OpState = 0 Then Exit Sub
@@ -1680,7 +1680,7 @@ If opFullRandom Then
     opRewrite = Rnd <= 0.15
 End If
 
-If SWCnt = -1& And Not opChaos Then Call MainOut("Я ОБКАКАЛСЯ. ПОЧЕМУ?", vbCenter): Exit Sub
+If SWCnt = -1& And Not opChaos Then Call MainOut("РЇ РћР‘РљРђРљРђР›РЎРЇ. РџРћР§Р•РњРЈ?", vbCenter): Exit Sub
 
 Dim wCnt& 'Result strings count
 Dim TLNG&
@@ -1716,7 +1716,7 @@ wCnt = Cnt + RNDINT(4)
         If RCnt = 0& Then
             Call SHIT(ByVal Cnt)
             If Err.Number = 28& Then
-                MainOut "Не взлетело. Слишком мало строк?", vbCenter
+                MainOut "РќРµ РІР·Р»РµС‚РµР»Рѕ. РЎР»РёС€РєРѕРј РјР°Р»Рѕ СЃС‚СЂРѕРє?", vbCenter
             End If
                 Exit Sub
         ElseIf Not UBound(rArr) = RCnt Then
@@ -1871,8 +1871,8 @@ MainOut rStr, vbLeftJustify
 If opCopyPaste Or Not frmMain.Visible Then Call zcs_SetClipboard(rStr)
 
 End Sub
-'Расставляет слова в строке случайным образом
-'Если KeepLastWord, тогда последнее слово останется на своем месте
+'Р Р°СЃСЃС‚Р°РІР»СЏРµС‚ СЃР»РѕРІР° РІ СЃС‚СЂРѕРєРµ СЃР»СѓС‡Р°Р№РЅС‹Рј РѕР±СЂР°Р·РѕРј
+'Р•СЃР»Рё KeepLastWord, С‚РѕРіРґР° РїРѕСЃР»РµРґРЅРµРµ СЃР»РѕРІРѕ РѕСЃС‚Р°РЅРµС‚СЃСЏ РЅР° СЃРІРѕРµРј РјРµСЃС‚Рµ
 Private Function fc_StrWordsResort(ByRef ISTR As String, KeepLastWord As Boolean) As String
 Dim iUsed As Long
 Dim iCurrent As Long
@@ -1956,7 +1956,7 @@ GoTo Recycle
 
 End Function
 
-'Очистка массива от сторонних символов и строк-дубликатов
+'РћС‡РёСЃС‚РєР° РјР°СЃСЃРёРІР° РѕС‚ СЃС‚РѕСЂРѕРЅРЅРёС… СЃРёРјРІРѕР»РѕРІ Рё СЃС‚СЂРѕРє-РґСѓР±Р»РёРєР°С‚РѕРІ
 Private Sub SHIT_CLEANUP()
 On Error Resume Next
 
@@ -1968,38 +1968,38 @@ Dim SymFixes As Long
 If Not SW_OpState = 0 Then Exit Sub
     Call a_loadFile 'reload source file
 
-If SWCnt = -1& Then Call MainOut(sConfig.sSourceName & " пуст. Нет пути форматировать.", vbCenter):  Exit Sub
+If SWCnt = -1& Then Call MainOut(sConfig.sSourceName & " РїСѓСЃС‚. РќРµС‚ РїСѓС‚Рё С„РѕСЂРјР°С‚РёСЂРѕРІР°С‚СЊ.", vbCenter):  Exit Sub
 SW_OpState = 2 'set operation state
 
 
 'fix symbols
-MainOut "Фикс символов...", vbCenter:      DoEvents
+MainOut "Р¤РёРєСЃ СЃРёРјРІРѕР»РѕРІ...", vbCenter:      DoEvents
 NText = Join(SWArr.MArr, Chr$(10&))
 
 'fix
 SymFixes = SHIT_CLEANUP_sbFilter(NText)
 
 SWArr.MArr() = Split(NText, Chr$(10&), -1&, vbBinaryCompare)
-MainOut "Фикс символов... OK", vbCenter:     DoEvents
+MainOut "Р¤РёРєСЃ СЃРёРјРІРѕР»РѕРІ... OK", vbCenter:     DoEvents
 
 'remove string duplicates
 SWArr.MArr() = SHIT_CLEANUP_fcFixDoubleString(SWArr.MArr(), GTFound)
-MainOut "Поиск дубликатов: OK", vbCenter:     DoEvents
+MainOut "РџРѕРёСЃРє РґСѓР±Р»РёРєР°С‚РѕРІ: OK", vbCenter:     DoEvents
 
 Dim OutFile As String: OutFile = AppSPath & sConfig.sSourceName
 Dim BckFile As String: BckFile = AppSPath & "\back_" & sConfig.sSourceName
 
 If Not GTFound = 0& Or Not SymFixes = 0& Then
-    MainOut "* Очистка завершена:", vbCenter
+    MainOut "* РћС‡РёСЃС‚РєР° Р·Р°РІРµСЂС€РµРЅР°:", vbCenter
     
     If Not GTFound = 0& Then
         MainOut txtMain.Text & vbNewLine & " -" & GTFound & " " & zcf_GetStringsWord(GTFound) & ".", vbCenter
     End If
     If Not SymFixes = 0& Then
-        MainOut txtMain.Text & vbNewLine & " -" & SymFixes & " символов.", vbCenter
+        MainOut txtMain.Text & vbNewLine & " -" & SymFixes & " СЃРёРјРІРѕР»РѕРІ.", vbCenter
     End If
 
-    If MsgBox("Перезаписать " & sConfig.sSourceName & "?", vbInformation + vbYesNo) = vbYes Then
+    If MsgBox("РџРµСЂРµР·Р°РїРёСЃР°С‚СЊ " & sConfig.sSourceName & "?", vbInformation + vbYesNo) = vbYes Then
         'write file
         Err.Clear
             Call MoveToRecycleBin(OutFile, True)
@@ -2007,14 +2007,14 @@ If Not GTFound = 0& Or Not SymFixes = 0& Then
                     Put 1, 1, Join(SWArr.MArr, vbNewLine)
                 Close 1
             If Err.Number = 0& Then
-                MainOut txtMain.Text & vbNewLine & sConfig.sSourceName & " обновлен.", vbCenter
+                MainOut txtMain.Text & vbNewLine & sConfig.sSourceName & " РѕР±РЅРѕРІР»РµРЅ.", vbCenter
             Else
                 MainOut txtMain.Text & vbNewLine & "! " & Err.Description, vbCenter
             End If
     End If
     LDate = vbNullString:   Call a_loadFile 'force reset file date and reload file
 Else
-    MainOut "* Очистка завершена. Ничего лишнего не найдено.", vbCenter
+    MainOut "* РћС‡РёСЃС‚РєР° Р·Р°РІРµСЂС€РµРЅР°. РќРёС‡РµРіРѕ Р»РёС€РЅРµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ.", vbCenter
 End If
 SW_OpState = 0
 End Sub
@@ -2086,7 +2086,7 @@ If UBound(iRawArr) = -1& Then DoublesCount = -1&: Exit Function
             End If
             If lTemp Mod 1024& = 0& Or lTemp = UBound(iRawArr) Then
                 'code to display state
-                MainOut "Поиск дубликатов: " & lTemp + 1& & " из " & UBound(iRawArr) + 1&, vbCenter
+                MainOut "РџРѕРёСЃРє РґСѓР±Р»РёРєР°С‚РѕРІ: " & lTemp + 1& & " РёР· " & UBound(iRawArr) + 1&, vbCenter
                 DoEvents
             End If
     Next lTemp
@@ -2115,11 +2115,11 @@ Dim hMem As Long, pMem As Long
         Clipboard.SetText StringToCopy
     End If
 End Sub
-'Возвращает случайную строку массива у которой последнее слово рифмуется с iRyphm
-'iLen - количество символов от конца строки, по которым производится сравнение
-'iRyphm - строка, к которой ищется рифма. Из нее будет выделено последнее слово.
-'Результат - количество найденных строк в массиве или -1, если не удалось найти ни 1
-'В ArrOfMatches записываются индексы найденных строк, он должен быть заранее сформирован
+'Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃР»СѓС‡Р°Р№РЅСѓСЋ СЃС‚СЂРѕРєСѓ РјР°СЃСЃРёРІР° Сѓ РєРѕС‚РѕСЂРѕР№ РїРѕСЃР»РµРґРЅРµРµ СЃР»РѕРІРѕ СЂРёС„РјСѓРµС‚СЃСЏ СЃ iRyphm
+'iLen - РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ РѕС‚ РєРѕРЅС†Р° СЃС‚СЂРѕРєРё, РїРѕ РєРѕС‚РѕСЂС‹Рј РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЃСЂР°РІРЅРµРЅРёРµ
+'iRyphm - СЃС‚СЂРѕРєР°, Рє РєРѕС‚РѕСЂРѕР№ РёС‰РµС‚СЃСЏ СЂРёС„РјР°. РР· РЅРµРµ Р±СѓРґРµС‚ РІС‹РґРµР»РµРЅРѕ РїРѕСЃР»РµРґРЅРµРµ СЃР»РѕРІРѕ.
+'Р РµР·СѓР»СЊС‚Р°С‚ - РєРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р№РґРµРЅРЅС‹С… СЃС‚СЂРѕРє РІ РјР°СЃСЃРёРІРµ РёР»Рё -1, РµСЃР»Рё РЅРµ СѓРґР°Р»РѕСЃСЊ РЅР°Р№С‚Рё РЅРё 1
+'Р’ ArrOfMatches Р·Р°РїРёСЃС‹РІР°СЋС‚СЃСЏ РёРЅРґРµРєСЃС‹ РЅР°Р№РґРµРЅРЅС‹С… СЃС‚СЂРѕРє, РѕРЅ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ Р·Р°СЂР°РЅРµРµ СЃС„РѕСЂРјРёСЂРѕРІР°РЅ
 
 Private Function fc_RyphmLine(ByRef iRyphm As String, ByRef iLen As Long, ByRef ArrOfMatches() As Long, ByRef MaxMatches As Long) As Long
 Dim RCnt As Long
@@ -2164,11 +2164,11 @@ fc_RyphmLine = RCnt
 End Function
 
 
-'Возвращает случайное слово из массива, которое рифмуется с iRyphm
-'iLen - количество символов от конца строки, по которым производится сравнение
-'iRyphm - строка, к которой ищется рифма. Из нее будет выделено последнее слово.
-'Результат - найденное слово или пустая строка
-'В ArrOfMatches записываются найденные слова
+'Р’РѕР·РІСЂР°С‰Р°РµС‚ СЃР»СѓС‡Р°Р№РЅРѕРµ СЃР»РѕРІРѕ РёР· РјР°СЃСЃРёРІР°, РєРѕС‚РѕСЂРѕРµ СЂРёС„РјСѓРµС‚СЃСЏ СЃ iRyphm
+'iLen - РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ РѕС‚ РєРѕРЅС†Р° СЃС‚СЂРѕРєРё, РїРѕ РєРѕС‚РѕСЂС‹Рј РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ СЃСЂР°РІРЅРµРЅРёРµ
+'iRyphm - СЃС‚СЂРѕРєР°, Рє РєРѕС‚РѕСЂРѕР№ РёС‰РµС‚СЃСЏ СЂРёС„РјР°. РР· РЅРµРµ Р±СѓРґРµС‚ РІС‹РґРµР»РµРЅРѕ РїРѕСЃР»РµРґРЅРµРµ СЃР»РѕРІРѕ.
+'Р РµР·СѓР»СЊС‚Р°С‚ - РЅР°Р№РґРµРЅРЅРѕРµ СЃР»РѕРІРѕ РёР»Рё РїСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°
+'Р’ ArrOfMatches Р·Р°РїРёСЃС‹РІР°СЋС‚СЃСЏ РЅР°Р№РґРµРЅРЅС‹Рµ СЃР»РѕРІР°
 Private Function fc_RyphmWord(ByRef iRyphm As String, ByRef iLen As Long, ByRef ArrOfMatches() As String, ByVal bUnique As Boolean, Optional RandomSeek As Long) As Long
 Dim RCnt As Long
 Dim TCnt As Long
@@ -2327,7 +2327,7 @@ If outroSigns And forceOutro Then GoTo jmpOutro
             If Rnd <= 0.86 Then
                 fc_RandomSign = ", "
             Else
-                fc_RandomSign = " — "
+                fc_RandomSign = " вЂ” "
             End If
             
 '        Case Is <= 24: If Rnd <= 0.88 Then fc_RandomSign = ": " Else fc_RandomSign = "; " '2x 2%
@@ -2371,7 +2371,7 @@ Private Function fc_Cache(ByRef iNewItem As Long) As Boolean
     End If
     
 End Function
-'заключает строку в случайный тег
+'Р·Р°РєР»СЋС‡Р°РµС‚ СЃС‚СЂРѕРєСѓ РІ СЃР»СѓС‡Р°Р№РЅС‹Р№ С‚РµРі
 Private Sub sb_RandomTag(ByRef rStr As String)
     Dim TagR As Byte: TagR = RNDINT(3)
     Dim Tags(0 To 7) As String
@@ -2399,13 +2399,13 @@ Private Sub sb_RandomTag(ByRef rStr As String)
             Tags(6) = "__"
             
             Tags(3) = "*"
-    '        sTagO = "^H" 'example: test^H^H^H^H значит что test будет зачеркнуто, по 1 ^H на каждый символ
-            Tags(7) = "*" 'Мне лень с этим ебаться, так что просто замена зачеркивания на наклонный
+    '        sTagO = "^H" 'example: test^H^H^H^H Р·РЅР°С‡РёС‚ С‡С‚Рѕ test Р±СѓРґРµС‚ Р·Р°С‡РµСЂРєРЅСѓС‚Рѕ, РїРѕ 1 ^H РЅР° РєР°Р¶РґС‹Р№ СЃРёРјРІРѕР»
+            Tags(7) = "*" 'РњРЅРµ Р»РµРЅСЊ СЃ СЌС‚РёРј РµР±Р°С‚СЊСЃСЏ, С‚Р°Рє С‡С‚Рѕ РїСЂРѕСЃС‚Рѕ Р·Р°РјРµРЅР° Р·Р°С‡РµСЂРєРёРІР°РЅРёСЏ РЅР° РЅР°РєР»РѕРЅРЅС‹Р№
         End If
     rStr = Tags(TagR) & rStr & Tags(TagR + 4)
 End Sub
 
-'Заменяет пробелы на случайные символы
+'Р—Р°РјРµРЅСЏРµС‚ РїСЂРѕР±РµР»С‹ РЅР° СЃР»СѓС‡Р°Р№РЅС‹Рµ СЃРёРјРІРѕР»С‹
 
 Private Sub sb_RandomSigns(ByRef rStr As String, ByRef chanseQuotes As Double, ByRef chanceSign As Double)
 Dim Tarr$()
@@ -2484,8 +2484,8 @@ Private Function fc_GetLastWord(ByRef rStr As String, ByRef IncludeDefice As Boo
 End Function
 
 Private Function SHIT_CLEANUP_sbFilter(ByRef rStr As String) As Long
-  'фильтр левЫх символов
-  'Диапазон допустимых символов, > - знак замены
+  'С„РёР»СЊС‚СЂ Р»РµРІР«С… СЃРёРјРІРѕР»РѕРІ
+  'Р”РёР°РїР°Р·РѕРЅ РґРѕРїСѓСЃС‚РёРјС‹С… СЃРёРјРІРѕР»РѕРІ, > - Р·РЅР°Рє Р·Р°РјРµРЅС‹
   '10
   '13
   '45
@@ -2504,7 +2504,7 @@ Private Function SHIT_CLEANUP_sbFilter(ByRef rStr As String) As Long
   '184
   '186
   '191-255
-  '168 > 197  Ё>Е
+  '168 > 197  РЃ>Р•
   Dim CHR00 As String * 1, CHR32 As String * 1
   Dim TLNG&, TMAX&
   Dim CCount As Long
@@ -2638,7 +2638,7 @@ XCycle:
     Next TLNG
     
   If Not CCount = 0& Then
-    MainOut "Фикс символов (-" & CCount & ")", vbCenter
+    MainOut "Р¤РёРєСЃ СЃРёРјРІРѕР»РѕРІ (-" & CCount & ")", vbCenter
     DoEvents
     SHIT_CLEANUP_sbFilter = SHIT_CLEANUP_sbFilter + CCount
         CCount = 0&
@@ -2649,20 +2649,20 @@ XCycle:
   End If
 End Function
 
-'заключает строку в случайные кавычки
+'Р·Р°РєР»СЋС‡Р°РµС‚ СЃС‚СЂРѕРєСѓ РІ СЃР»СѓС‡Р°Р№РЅС‹Рµ РєР°РІС‹С‡РєРё
 Private Sub sb_RandomQuotes(ByRef rStr As String)
-'“ ”, ‘ ’, « », ‹ ›, " "
+'вЂњ вЂќ, вЂ вЂ™, В« В», вЂ№ вЂє, " "
 
 'If Rnd <= 0.03 Then
-'    rStr = "“" & rStr & "”"
+'    rStr = "вЂњ" & rStr & "вЂќ"
 'ElseIf Rnd <= 0.05 Then
-'    rStr = "‘" & rStr & "’"
+'    rStr = "вЂ" & rStr & "вЂ™"
 'ElseIf Rnd <= 0.07 Then
-'    rStr = "‹" & rStr & "›"
+'    rStr = "вЂ№" & rStr & "вЂє"
 'Else
 
 If Rnd <= 0.2 Then
-    rStr = "«" & rStr & "»"
+    rStr = "В«" & rStr & "В»"
 Else
     rStr = """" & rStr & """"
 End If
@@ -2734,51 +2734,51 @@ Public Function KeyPressed(ByRef vkKey As Long) As Boolean
     KeyPressed = IIf(TKeyPressed = -32767 Or TKeyPressed = -32768, True, False)
 End Function
 
-'Замена кириллицы на схожую по виду латиницу
+'Р—Р°РјРµРЅР° РєРёСЂРёР»Р»РёС†С‹ РЅР° СЃС…РѕР¶СѓСЋ РїРѕ РІРёРґСѓ Р»Р°С‚РёРЅРёС†Сѓ
 Private Sub sb_CyrFilterEx(ByRef sStr$)
     Dim TLNG&
     For TLNG = 1& To Len(sStr)
         Select Case Asc(Mid$(sStr, TLNG, 1&))
-            Case 224: 'а , a
+            Case 224: 'Р° , a
                Mid$(sStr, TLNG, 1&) = "a"
-            Case 229: 'е , e
+            Case 229: 'Рµ , e
                Mid$(sStr, TLNG, 1&) = "e"
-            Case 238: 'о , o
+            Case 238: 'Рѕ , o
                Mid$(sStr, TLNG, 1&) = "o"
-            Case 240: 'р , p
+            Case 240: 'СЂ , p
                Mid$(sStr, TLNG, 1&) = "p"
-            Case 241: 'с , c
+            Case 241: 'СЃ , c
                Mid$(sStr, TLNG, 1&) = "c"
-            Case 243: 'у , y
+            Case 243: 'Сѓ , y
                Mid$(sStr, TLNG, 1&) = "y"
-            Case 245: 'х , x
+            Case 245: 'С… , x
                Mid$(sStr, TLNG, 1&) = "x"
-'            Case 228: 'д , g
+'            Case 228: 'Рґ , g
 '               Mid$(sStr, Tlng, 1&) = "g"
-'            Case 239: 'п , n
+'            Case 239: 'Рї , n
 '               Mid$(sStr, Tlng, 1&) = "n"
-            Case 179: 'і , i
+            Case 179: 'С– , i
                 Mid$(sStr, TLNG, 1&) = "i"
                
-            Case 192: 'А , A
+            Case 192: 'Рђ , A
                Mid$(sStr, TLNG, 1&) = "A"
-            Case 197: 'Е , E
+            Case 197: 'Р• , E
                Mid$(sStr, TLNG, 1&) = "E"
-            Case 202: 'К , K
+            Case 202: 'Рљ , K
                Mid$(sStr, TLNG, 1&) = "K"
-            Case 206: 'О , O
+            Case 206: 'Рћ , O
                Mid$(sStr, TLNG, 1&) = "O"
-            Case 208: 'Р , P
+            Case 208: 'Р  , P
                Mid$(sStr, TLNG, 1&) = "P"
-            Case 209: 'С , C
+            Case 209: 'РЎ , C
                Mid$(sStr, TLNG, 1&) = "C"
-            Case 213: 'Х , X
+            Case 213: 'РҐ , X
                Mid$(sStr, TLNG, 1&) = "X"
-            Case 210: 'Т , T
+            Case 210: 'Рў , T
                Mid$(sStr, TLNG, 1&) = "T"
-            Case 205: 'Н , H
+            Case 205: 'Рќ , H
                Mid$(sStr, TLNG, 1&) = "H"
-            Case 178: 'І , I
+            Case 178: 'Р† , I
                Mid$(sStr, TLNG, 1&) = "I"
         End Select
     Next TLNG
@@ -2793,280 +2793,280 @@ Private Sub sb_NyaFilter(ByRef sStr$)
         End If
     Next TLNG
 End Sub
-'Сервисная версия, обрабатывает только кириллические символы ВЕРХНЕГО РЕГИСТРА
+'РЎРµСЂРІРёСЃРЅР°СЏ РІРµСЂСЃРёСЏ, РѕР±СЂР°Р±Р°С‚С‹РІР°РµС‚ С‚РѕР»СЊРєРѕ РєРёСЂРёР»Р»РёС‡РµСЃРєРёРµ СЃРёРјРІРѕР»С‹ Р’Р•Р РҐРќР•Р“Рћ Р Р•Р“РРЎРўР Рђ
 Private Sub sb_MedvedFilter(ByRef sStr$)
-'Полный список активированных преобразований:
-'Э , И
-'І , И
-'Є , И
-'Ї , И
-'Ґ , Х
-'Ф , Х
-'Г , Х
-'П , Х
-'Б , Х
-'В , Х
-'З , С
-'Ц , С
-'Д , Т
-'Я , А
-'Ю , У
-'М , Н
-'Ч , Ш
-'Ж , Ш
-'Щ , Ш
+'РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє Р°РєС‚РёРІРёСЂРѕРІР°РЅРЅС‹С… РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёР№:
+'Р­ , Р
+'Р† , Р
+'Р„ , Р
+'Р‡ , Р
+'Тђ , РҐ
+'Р¤ , РҐ
+'Р“ , РҐ
+'Рџ , РҐ
+'Р‘ , РҐ
+'Р’ , РҐ
+'Р— , РЎ
+'Р¦ , РЎ
+'Р” , Рў
+'РЇ , Рђ
+'Р® , РЈ
+'Рњ , Рќ
+'Р§ , РЁ
+'Р– , РЁ
+'Р© , РЁ
 
-'Сомнительно:
-'Е , И
+'РЎРѕРјРЅРёС‚РµР»СЊРЅРѕ:
+'Р• , Р
 
     Dim TLNG&
     
     For TLNG = 1& To Len(sStr)
         Select Case Asc(Mid$(sStr, TLNG, 1&))
-            'Хуй знает, убрать Е-И или оставить. Пусть решает рандом :3
-            'Case 197: 'Е , И
-                'Mid$(sStr, TLNG, 1&) = "И"
+            'РҐСѓР№ Р·РЅР°РµС‚, СѓР±СЂР°С‚СЊ Р•-Р РёР»Рё РѕСЃС‚Р°РІРёС‚СЊ. РџСѓСЃС‚СЊ СЂРµС€Р°РµС‚ СЂР°РЅРґРѕРј :3
+            'Case 197: 'Р• , Р
+                'Mid$(sStr, TLNG, 1&) = "Р"
 
-            Case 221: 'Э , И
-               Mid$(sStr, TLNG, 1&) = "И"
-            Case 178: 'І , И
-               Mid$(sStr, TLNG, 1&) = "И"
-            Case 170: 'Є , И
-               Mid$(sStr, TLNG, 1&) = "И"
-            Case 175: 'Ї , И
-               Mid$(sStr, TLNG, 1&) = "И"
+            Case 221: 'Р­ , Р
+               Mid$(sStr, TLNG, 1&) = "Р"
+            Case 178: 'Р† , Р
+               Mid$(sStr, TLNG, 1&) = "Р"
+            Case 170: 'Р„ , Р
+               Mid$(sStr, TLNG, 1&) = "Р"
+            Case 175: 'Р‡ , Р
+               Mid$(sStr, TLNG, 1&) = "Р"
                
-            'Х
-            Case 165: 'Ґ , Х
-               Mid$(sStr, TLNG, 1&) = "Х"
-            Case 212: 'Ф , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
-            Case 195: 'Г , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
-            Case 207: 'П , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
-            Case 193: 'Б , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
-            Case 194: 'В , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
+            'РҐ
+            Case 165: 'Тђ , РҐ
+               Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 212: 'Р¤ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 195: 'Р“ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 207: 'Рџ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 193: 'Р‘ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 194: 'Р’ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
             
-            'С
-            Case 199: 'З , С
-                Mid$(sStr, TLNG, 1&) = "С"
-            Case 214: 'Ц , С
-                Mid$(sStr, TLNG, 1&) = "С"
+            'РЎ
+            Case 199: 'Р— , РЎ
+                Mid$(sStr, TLNG, 1&) = "РЎ"
+            Case 214: 'Р¦ , РЎ
+                Mid$(sStr, TLNG, 1&) = "РЎ"
 
-            Case 196: 'Д, Т
-                Mid$(sStr, TLNG, 1&) = "Т"
+            Case 196: 'Р”, Рў
+                Mid$(sStr, TLNG, 1&) = "Рў"
                 
-            Case 223: 'Я , А
-                 Mid$(sStr, TLNG, 1&) = "А"
-            Case 222: 'Ю , У
-                Mid$(sStr, TLNG, 1&) = "У"
+            Case 223: 'РЇ , Рђ
+                 Mid$(sStr, TLNG, 1&) = "Рђ"
+            Case 222: 'Р® , РЈ
+                Mid$(sStr, TLNG, 1&) = "РЈ"
             
-            Case 204: 'М , Н
-                Mid$(sStr, TLNG, 1&) = "Н"
+            Case 204: 'Рњ , Рќ
+                Mid$(sStr, TLNG, 1&) = "Рќ"
      
-            Case 215: 'Ч , Ш
-                Mid$(sStr, TLNG, 1&) = "Ш"
-            Case 198: 'Ж , Ш
-                Mid$(sStr, TLNG, 1&) = "Ш"
-            Case 217: 'Щ , Ш
-                Mid$(sStr, TLNG, 1&) = "Ш"
+            Case 215: 'Р§ , РЁ
+                Mid$(sStr, TLNG, 1&) = "РЁ"
+            Case 198: 'Р– , РЁ
+                Mid$(sStr, TLNG, 1&) = "РЁ"
+            Case 217: 'Р© , РЁ
+                Mid$(sStr, TLNG, 1&) = "РЁ"
             
         End Select
     Next TLNG
 End Sub
-'Обычная версия, включена обработка обоих регистров кириллицы
+'РћР±С‹С‡РЅР°СЏ РІРµСЂСЃРёСЏ, РІРєР»СЋС‡РµРЅР° РѕР±СЂР°Р±РѕС‚РєР° РѕР±РѕРёС… СЂРµРіРёСЃС‚СЂРѕРІ РєРёСЂРёР»Р»РёС†С‹
 Private Sub sb_MedvedFilterEx(ByRef sStr$)
     Dim TLNG&
     For TLNG = 1& To Len(sStr)
         Select Case Asc(Mid$(sStr, TLNG, 1&))
-            Case 193: 'Б , В-Ф
+            Case 193: 'Р‘ , Р’-Р¤
                 If Rnd <= 0.5 Then
                     If Rnd <= 0.8 Then
-                        Mid$(sStr, TLNG, 1&) = "В"
+                        Mid$(sStr, TLNG, 1&) = "Р’"
                     Else
-                        Mid$(sStr, TLNG, 1&) = "Ф"
+                        Mid$(sStr, TLNG, 1&) = "Р¤"
                     End If
                 End If
                 
             'ukr
-            Case 165: 'Ґ , Г-Х
+            Case 165: 'Тђ , Р“-РҐ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "Г"
+                    Mid$(sStr, TLNG, 1&) = "Р“"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "Х"
+                    Mid$(sStr, TLNG, 1&) = "РҐ"
                 End If
-            Case 178: 'І , И
+            Case 178: 'Р† , Р
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "И"
+                    Mid$(sStr, TLNG, 1&) = "Р"
                 End If
-            Case 170: 'Є , И-Ї-Е
+            Case 170: 'Р„ , Р-Р‡-Р•
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "И"
+                    Mid$(sStr, TLNG, 1&) = "Р"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "Ї"
+                    Mid$(sStr, TLNG, 1&) = "Р‡"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "Е"
+                    Mid$(sStr, TLNG, 1&) = "Р•"
                 End If
-            Case 175: 'Ї , І
+            Case 175: 'Р‡ , Р†
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "І"
+                    Mid$(sStr, TLNG, 1&) = "Р†"
                 End If
             '  '
             
-            Case 195: 'Г , Х
+            Case 195: 'Р“ , РҐ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "Х"
+                    Mid$(sStr, TLNG, 1&) = "РҐ"
                 End If
-            Case 213: 'Х , Г
+            Case 213: 'РҐ , Р“
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "Г"
+                    Mid$(sStr, TLNG, 1&) = "Р“"
                 End If
-            Case 193: 'Д , Т
+            Case 193: 'Р” , Рў
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "Т"
+                    Mid$(sStr, TLNG, 1&) = "Рў"
                 End If
-            Case 210: 'Т , Д
+            Case 210: 'Рў , Р”
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "Д"
+                    Mid$(sStr, TLNG, 1&) = "Р”"
                 End If
-            Case 197: 'Е , И-Э
+            Case 197: 'Р• , Р-Р­
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "И"
+                    Mid$(sStr, TLNG, 1&) = "Р"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "Э"
+                    Mid$(sStr, TLNG, 1&) = "Р­"
                 End If
-            Case 168: 'Ё , И-Э
+            Case 168: 'РЃ , Р-Р­
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "И"
+                    Mid$(sStr, TLNG, 1&) = "Р"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "Э"
+                    Mid$(sStr, TLNG, 1&) = "Р­"
                 End If
                 
-            Case 198: 'Ж , Ш-С
+            Case 198: 'Р– , РЁ-РЎ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "Ш"
+                    Mid$(sStr, TLNG, 1&) = "РЁ"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "С"
+                    Mid$(sStr, TLNG, 1&) = "РЎ"
                 End If
                 
-            Case 199: 'З , С
+            Case 199: 'Р— , РЎ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "С"
+                    Mid$(sStr, TLNG, 1&) = "РЎ"
                 End If
-            Case 212: 'Ф , Х
-                Mid$(sStr, TLNG, 1&) = "Х"
-            Case 214: 'Ц , С
+            Case 212: 'Р¤ , РҐ
+                Mid$(sStr, TLNG, 1&) = "РҐ"
+            Case 214: 'Р¦ , РЎ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "С"
+                    Mid$(sStr, TLNG, 1&) = "РЎ"
                 End If
-            Case 215: 'Ч , Ш
-                Mid$(sStr, TLNG, 1&) = "Ш"
-            Case 221: 'Э , И
-                Mid$(sStr, TLNG, 1&) = "И"
-            Case 222: 'Ю , У
+            Case 215: 'Р§ , РЁ
+                Mid$(sStr, TLNG, 1&) = "РЁ"
+            Case 221: 'Р­ , Р
+                Mid$(sStr, TLNG, 1&) = "Р"
+            Case 222: 'Р® , РЈ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "У"
+                    Mid$(sStr, TLNG, 1&) = "РЈ"
                 End If
-            Case 223: 'Я , А
+            Case 223: 'РЇ , Рђ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "А"
+                    Mid$(sStr, TLNG, 1&) = "Рђ"
                 End If
 '**********************************************8
-            Case 225: 'б , в-ф
+            Case 225: 'Р± , РІ-С„
                 If Rnd <= 0.5 Then
                     If Rnd <= 0.8 Then
-                        Mid$(sStr, TLNG, 1&) = "в"
+                        Mid$(sStr, TLNG, 1&) = "РІ"
                     Else
-                        Mid$(sStr, TLNG, 1&) = "ф"
+                        Mid$(sStr, TLNG, 1&) = "С„"
                     End If
                 End If
 
             'ukr
-            Case 180: 'ґ , г-х
+            Case 180: 'Т‘ , Рі-С…
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "г"
+                    Mid$(sStr, TLNG, 1&) = "Рі"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "х"
+                    Mid$(sStr, TLNG, 1&) = "С…"
                 End If
-            Case 179: 'і , и
+            Case 179: 'С– , Рё
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "и"
+                    Mid$(sStr, TLNG, 1&) = "Рё"
                 End If
-            Case 186: 'є , И-Ї-Е
+            Case 186: 'С” , Р-Р‡-Р•
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "є"
+                    Mid$(sStr, TLNG, 1&) = "С”"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "ї"
+                    Mid$(sStr, TLNG, 1&) = "С—"
                 ElseIf Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "е"
+                    Mid$(sStr, TLNG, 1&) = "Рµ"
                 End If
-            Case 191: 'ї , і
+            Case 191: 'С— , С–
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "і"
+                    Mid$(sStr, TLNG, 1&) = "С–"
                 End If
             '  '
 
 
-            Case 227: 'г , х
+            Case 227: 'Рі , С…
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "х"
+                    Mid$(sStr, TLNG, 1&) = "С…"
                 End If
-            Case 245: 'х , г
+            Case 245: 'С… , Рі
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "г"
+                    Mid$(sStr, TLNG, 1&) = "Рі"
                 End If
-            Case 228: 'д , т
+            Case 228: 'Рґ , С‚
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "т"
+                    Mid$(sStr, TLNG, 1&) = "С‚"
                 End If
-            Case 242: 'т , д
+            Case 242: 'С‚ , Рґ
                 If Rnd <= 0.7 Then
-                    Mid$(sStr, TLNG, 1&) = "д"
+                    Mid$(sStr, TLNG, 1&) = "Рґ"
                 End If
-            Case 229: 'е , и-э
+            Case 229: 'Рµ , Рё-СЌ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "и"
+                    Mid$(sStr, TLNG, 1&) = "Рё"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "э"
+                    Mid$(sStr, TLNG, 1&) = "СЌ"
                 End If
-            Case 184: 'ё , и-э
+            Case 184: 'С‘ , Рё-СЌ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "и"
+                    Mid$(sStr, TLNG, 1&) = "Рё"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "э"
+                    Mid$(sStr, TLNG, 1&) = "СЌ"
                 End If
                 
-            Case 230: 'ж , ш-с
+            Case 230: 'Р¶ , С€-СЃ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "ш"
+                    Mid$(sStr, TLNG, 1&) = "С€"
                 Else
-                    Mid$(sStr, TLNG, 1&) = "с"
+                    Mid$(sStr, TLNG, 1&) = "СЃ"
                 End If
                 
-            Case 231: 'з , с
+            Case 231: 'Р· , СЃ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "с"
+                    Mid$(sStr, TLNG, 1&) = "СЃ"
                 End If
-            Case 244: 'ф , х
-                Mid$(sStr, TLNG, 1&) = "х"
-            Case 246: 'ц , с
+            Case 244: 'С„ , С…
+                Mid$(sStr, TLNG, 1&) = "С…"
+            Case 246: 'С† , СЃ
                 If Rnd <= 0.5 Then
-                    Mid$(sStr, TLNG, 1&) = "с"
+                    Mid$(sStr, TLNG, 1&) = "СЃ"
                 End If
-            Case 247: 'ч , ш
-                Mid$(sStr, TLNG, 1&) = "ш"
-            Case 253: 'э , и
-                Mid$(sStr, TLNG, 1&) = "и"
-            Case 254: 'ю , у
+            Case 247: 'С‡ , С€
+                Mid$(sStr, TLNG, 1&) = "С€"
+            Case 253: 'СЌ , Рё
+                Mid$(sStr, TLNG, 1&) = "Рё"
+            Case 254: 'СЋ , Сѓ
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "у"
+                    Mid$(sStr, TLNG, 1&) = "Сѓ"
                 End If
-            Case 255: 'я , а
+            Case 255: 'СЏ , Р°
                 If Rnd <= 0.8 Then
-                    Mid$(sStr, TLNG, 1&) = "а"
+                    Mid$(sStr, TLNG, 1&) = "Р°"
                 End If
         End Select
     Next TLNG
@@ -3076,13 +3076,13 @@ Private Function zcf_GetStringsWord(ByRef iLng As Long)
     Dim StringsL As Byte:   StringsL = CByte(StringsS)
 
     If (StringsL Mod 10 = 0) Or (StringsL >= 11 And StringsL <= 19) Then
-        zcf_GetStringsWord = "строк" '0, 10, 20, 30 ..., 11-12-13...19
+        zcf_GetStringsWord = "СЃС‚СЂРѕРє" '0, 10, 20, 30 ..., 11-12-13...19
     ElseIf Val(Right$(StringsS, 1&)) >= 5 Then
-        zcf_GetStringsWord = "строк" '5-9
+        zcf_GetStringsWord = "СЃС‚СЂРѕРє" '5-9
     ElseIf Val(Right$(StringsS, 1&)) >= 2 Then
-        zcf_GetStringsWord = "строки" '2-4
+        zcf_GetStringsWord = "СЃС‚СЂРѕРєРё" '2-4
     Else
-        zcf_GetStringsWord = "строка" '1
+        zcf_GetStringsWord = "СЃС‚СЂРѕРєР°" '1
     End If
 End Function
 
@@ -3274,15 +3274,15 @@ End If
 End Function
 
 
-'заменяет некоторые слова на другие с похожими окончаниями
-'с определенной вероятностью
+'Р·Р°РјРµРЅСЏРµС‚ РЅРµРєРѕС‚РѕСЂС‹Рµ СЃР»РѕРІР° РЅР° РґСЂСѓРіРёРµ СЃ РїРѕС…РѕР¶РёРјРё РѕРєРѕРЅС‡Р°РЅРёСЏРјРё
+'СЃ РѕРїСЂРµРґРµР»РµРЅРЅРѕР№ РІРµСЂРѕСЏС‚РЅРѕСЃС‚СЊСЋ
 Private Sub sb_Rewrite(ByRef iArr$(), ByRef iCount As Long, ByRef fixLastWord As Boolean)
     Dim WordsArr() As String
     Dim sArr() As String
     Dim iTmp As Long
     Dim wTmp As Long
 
-    Const extStr As String = "НЫЙ НАЯ НОЙ НЫЕ ЕЛА АЛА ТАЛ БАЛ СИТ ВАЛ ДЕТ АТЬ НЫМ РИТ ЙТЕ ИТЕ ИТЬ ДАЛ ЬСЯ ШУТ ШАТ ПИТ РИЛ ДИТ ТСЯ ИЖУ АЛИ АЮТ УШИ ВЕМ ИШЬ ИСЬ КАЯ ЩАТ НИТ ЗЕТ УЕТ НЕТ ЬМИ ЛСЯ ИЛА МАЛ ДЯТ НЯЛ ЕШЬ ШЕН МЕМ АЕТ НАЛ РАЛ ПЕЛ ОВИ АСЬ ЯЮТ ТЯТ ЬЕТ ОРЮ ЧЕТ ЬЮТ ЯТЬ ТРИ СИЛ ЛЯЛ ДЕЛ УЛО ЧИТ ТЕТ ВИТ АШУ САЛ ЯЕМ ЗИЛ СЛА СЛО УТЬ ПАЛ СТЬ ЕБУ НИЛ ВИЛ ЗАЛ ЬТЕ ВАЯ ИЛИ ЧИЛ ГАЛ ИЛО СУТ ЯЕТ ТИТ КИЕ ЛАЯ ТАЯ ОГО АВЬ НЯЯ УСЬ УЛИ ОСИ КИЙ ЛАЛ НУЮ БЬЮ ЖУТ КОЙ ЧЕЕ ПЫМ ТЫМ ЗЛИ НУЛ ЖЕТ ЖИЛ ДОХ ШЛО ЗИЙ ТЫЙ ВЫЕ ЫЛИ ДАЮ ЖАТ НОЕ ОСЬ ЛЫЕ ВОМ РХУ ЖАЛ ТЫХ ХАЛ ИБИ ШЕЛ АЛО МОЙ АЕМ ОХО ГЛИ ИВУ ШАЛ ЕТЬ УЛА ЩЕТ ОВО РЕТ ХЛИ СЕТ АЖИ ЕЛИ ЬШЕ ЗТЬ НЫХ КАЛ КИХ ОМУ РАЯ НИЯ ЬНО ЕДУ ДУТ РВУ ВЫЙ ВУТ ТУЮ ШИЙ ИВО ДИЛ НИЕ НУТ ЯЛИ КАЙ ННО ЫМИ ТЫЕ АНА ЕНА ЙСЯ ЛУЮ КЛО НИЙ ЕЖУ ЧИЕ ЙСЯ КОЙ АТЬ ХЛИ АЛИ БЕТ АЮТ ЩИЙ НЕЕ ЕТЕ ГАЯ ЩАЛ ЖНО МАЮ МЕЛ СЕН"
+    Const extStr As String = "РќР«Р™ РќРђРЇ РќРћР™ РќР«Р• Р•Р›Рђ РђР›Рђ РўРђР› Р‘РђР› РЎРРў Р’РђР› Р”Р•Рў РђРўР¬ РќР«Рњ Р РРў Р™РўР• РРўР• РРўР¬ Р”РђР› Р¬РЎРЇ РЁРЈРў РЁРђРў РџРРў Р РР› Р”РРў РўРЎРЇ РР–РЈ РђР›Р РђР®Рў РЈРЁР Р’Р•Рњ РРЁР¬ РРЎР¬ РљРђРЇ Р©РђРў РќРРў Р—Р•Рў РЈР•Рў РќР•Рў Р¬РњР Р›РЎРЇ РР›Рђ РњРђР› Р”РЇРў РќРЇР› Р•РЁР¬ РЁР•Рќ РњР•Рњ РђР•Рў РќРђР› Р РђР› РџР•Р› РћР’Р РђРЎР¬ РЇР®Рў РўРЇРў Р¬Р•Рў РћР Р® Р§Р•Рў Р¬Р®Рў РЇРўР¬ РўР Р РЎРР› Р›РЇР› Р”Р•Р› РЈР›Рћ Р§РРў РўР•Рў Р’РРў РђРЁРЈ РЎРђР› РЇР•Рњ Р—РР› РЎР›Рђ РЎР›Рћ РЈРўР¬ РџРђР› РЎРўР¬ Р•Р‘РЈ РќРР› Р’РР› Р—РђР› Р¬РўР• Р’РђРЇ РР›Р Р§РР› Р“РђР› РР›Рћ РЎРЈРў РЇР•Рў РўРРў РљРР• Р›РђРЇ РўРђРЇ РћР“Рћ РђР’Р¬ РќРЇРЇ РЈРЎР¬ РЈР›Р РћРЎР РљРР™ Р›РђР› РќРЈР® Р‘Р¬Р® Р–РЈРў РљРћР™ Р§Р•Р• РџР«Рњ РўР«Рњ Р—Р›Р РќРЈР› Р–Р•Рў Р–РР› Р”РћРҐ РЁР›Рћ Р—РР™ РўР«Р™ Р’Р«Р• Р«Р›Р Р”РђР® Р–РђРў РќРћР• РћРЎР¬ Р›Р«Р• Р’РћРњ Р РҐРЈ Р–РђР› РўР«РҐ РҐРђР› РР‘Р РЁР•Р› РђР›Рћ РњРћР™ РђР•Рњ РћРҐРћ Р“Р›Р РР’РЈ РЁРђР› Р•РўР¬ РЈР›Рђ Р©Р•Рў РћР’Рћ Р Р•Рў РҐР›Р РЎР•Рў РђР–Р Р•Р›Р Р¬РЁР• Р—РўР¬ РќР«РҐ РљРђР› РљРРҐ РћРњРЈ Р РђРЇ РќРРЇ Р¬РќРћ Р•Р”РЈ Р”РЈРў Р Р’РЈ Р’Р«Р™ Р’РЈРў РўРЈР® РЁРР™ РР’Рћ Р”РР› РќРР• РќРЈРў РЇР›Р РљРђР™ РќРќРћ Р«РњР РўР«Р• РђРќРђ Р•РќРђ Р™РЎРЇ Р›РЈР® РљР›Рћ РќРР™ Р•Р–РЈ Р§РР• Р™РЎРЇ РљРћР™ РђРўР¬ РҐР›Р РђР›Р Р‘Р•Рў РђР®Рў Р©РР™ РќР•Р• Р•РўР• Р“РђРЇ Р©РђР› Р–РќРћ РњРђР® РњР•Р› РЎР•Рќ"
     
     Dim extLen As Long
         extLen = 3&
@@ -3291,15 +3291,15 @@ Private Sub sb_Rewrite(ByRef iArr$(), ByRef iCount As Long, ByRef fixLastWord As
         WordsArr = Split(iArr(iTmp), " ", -1&, vbBinaryCompare)
             
         'exept last words
-        'если fixLastWord -- последнее слово фразы не будет трансформироваться, нужно для режима лирика чтобы не выпадало одинаковой рифмы
+        'РµСЃР»Рё fixLastWord -- РїРѕСЃР»РµРґРЅРµРµ СЃР»РѕРІРѕ С„СЂР°Р·С‹ РЅРµ Р±СѓРґРµС‚ С‚СЂР°РЅСЃС„РѕСЂРјРёСЂРѕРІР°С‚СЊСЃСЏ, РЅСѓР¶РЅРѕ РґР»СЏ СЂРµР¶РёРјР° Р»РёСЂРёРєР° С‡С‚РѕР±С‹ РЅРµ РІС‹РїР°РґР°Р»Рѕ РѕРґРёРЅР°РєРѕРІРѕР№ СЂРёС„РјС‹
         For wTmp = 0& To IIf(fixLastWord, UBound(WordsArr) - 1&, UBound(WordsArr))
             If Len(WordsArr(wTmp)) > extLen Then
                 
 
-                'можно ограничить список разрешенных для замены окончаний чтобы речь была более осмысленной
+                'РјРѕР¶РЅРѕ РѕРіСЂР°РЅРёС‡РёС‚СЊ СЃРїРёСЃРѕРє СЂР°Р·СЂРµС€РµРЅРЅС‹С… РґР»СЏ Р·Р°РјРµРЅС‹ РѕРєРѕРЅС‡Р°РЅРёР№ С‡С‚РѕР±С‹ СЂРµС‡СЊ Р±С‹Р»Р° Р±РѕР»РµРµ РѕСЃРјС‹СЃР»РµРЅРЅРѕР№
                 If Rnd <= 0.5 Then
                 If Not InStr(1&, extStr, Right$(WordsArr(wTmp), extLen), vbBinaryCompare) = 0& Then
-                    'замена производится по последним символам слова
+                    'Р·Р°РјРµРЅР° РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ РїРѕ РїРѕСЃР»РµРґРЅРёРј СЃРёРјРІРѕР»Р°Рј СЃР»РѕРІР°
                     'fc_RyphmWord or fc_RyphmWordEx? who knows
                         If Not fc_RyphmWord(Right$(WordsArr(wTmp), extLen), extLen, sArr, False, 2048) = -1& Then
                             WordsArr(wTmp) = sArr(RNDINT(UBound(sArr)))
@@ -3312,22 +3312,22 @@ Private Sub sb_Rewrite(ByRef iArr$(), ByRef iCount As Long, ByRef fixLastWord As
         iArr(iTmp) = Join(WordsArr, " ")
     Next iTmp
 End Sub
-'делает некоторые опечатки
-'в планах - добавить замену букв на схожие. Т.е гласные на гласные/ пригласные на пригласные
-'так же перестановку двух букв местами
+'РґРµР»Р°РµС‚ РЅРµРєРѕС‚РѕСЂС‹Рµ РѕРїРµС‡Р°С‚РєРё
+'РІ РїР»Р°РЅР°С… - РґРѕР±Р°РІРёС‚СЊ Р·Р°РјРµРЅСѓ Р±СѓРєРІ РЅР° СЃС…РѕР¶РёРµ. Рў.Рµ РіР»Р°СЃРЅС‹Рµ РЅР° РіР»Р°СЃРЅС‹Рµ/ РїСЂРёРіР»Р°СЃРЅС‹Рµ РЅР° РїСЂРёРіР»Р°СЃРЅС‹Рµ
+'С‚Р°Рє Р¶Рµ РїРµСЂРµСЃС‚Р°РЅРѕРІРєСѓ РґРІСѓС… Р±СѓРєРІ РјРµСЃС‚Р°РјРё
 Private Sub sb_Mistakes(ByRef iArr$(), ByRef iCount As Long, ByRef ReserveSymbols As Boolean)
     Dim iTmp As Long
     Dim aTmp As Long
     Dim mCnt As Long
     Dim sByt As Long
-    Const SymMask As String = "БВГДЖЗКЛМНПРСТФХЦЧШЩЪЬЭЫЮЯАЕИЙОУ"
+    Const SymMask As String = "Р‘Р’Р“Р”Р–Р—РљР›РњРќРџР РЎРўР¤РҐР¦Р§РЁР©РЄР¬Р­Р«Р®РЇРђР•РР™РћРЈ"
     For iTmp = 1& To iCount
         For aTmp = 2& To Len(iArr(iTmp)) - IIf(ReserveSymbols, 3&, 1&)
             If Rnd <= 0.065 Then 'main chance
                 If Not Asc(Mid$(iArr(iTmp), aTmp - 1&, 1&)) = 32 Then
                 If Not Asc(Mid$(iArr(iTmp), aTmp + 1&, 1&)) = 32 Then
                     sByt = InStr(1&, SymMask, Mid$(iArr(iTmp), aTmp, 1&), vbBinaryCompare)
-                    If sByt >= 23& Then 'Э и дальше
+                    If sByt >= 23& Then 'Р­ Рё РґР°Р»СЊС€Рµ
                         If Rnd <= 0.4 Then
                             If Rnd <= 0.5 Then
                                 Mid$(iArr(iTmp), aTmp, 1&) = Mid$(SymMask, 1& + RNDINT(Len(SymMask) - 1&), 1&)
@@ -3378,8 +3378,8 @@ Dim Bytes() As Byte
 Dim fID As Long
 On Local Error Resume Next
     Select Case InnerFile
-        Case 1: fID = 242 'стандартный словарь
-        Case 2: fID = 232 'стандартный треш-словарь
+        Case 1: fID = 242 'СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ СЃР»РѕРІР°СЂСЊ
+        Case 2: fID = 232 'СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ С‚СЂРµС€-СЃР»РѕРІР°СЂСЊ
         Case Else:
             Exit Sub
     End Select
@@ -3393,7 +3393,7 @@ On Local Error Resume Next
 '        Close 1
     
     If Err.Number = 0& Then
-        'установить ключ
+        'СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РєР»СЋС‡
         Call CopyMemory(ByVal VarPtr(byteKey(0)), 242&, 4&)
         Call CopyMemory(ByVal VarPtr(byteKey(1)), 124&, 4&)
         Call CopyMemory(ByVal VarPtr(byteKey(2)), 8&, 4&)
@@ -3427,10 +3427,10 @@ On Local Error Resume Next
         Call CopyMemory(ByVal VarPtr(byteKey(30)), 129&, 2&)
         Call CopyMemory(ByVal VarPtr(byteKey(31)), 121&, 1&)
             
-        'попытка расшифровки
+        'РїРѕРїС‹С‚РєР° СЂР°СЃС€РёС„СЂРѕРІРєРё
         Call dataDecrypt(Bytes, oStr)
         Erase Bytes
-        'стереть ключь
+        'СЃС‚РµСЂРµС‚СЊ РєР»СЋС‡СЊ
             For fID = 0& To 31&
                 Call CopyMemory(ByVal VarPtr(byteKey(fID)), fID, 1&)
             Next fID
@@ -3473,7 +3473,7 @@ On Error Resume Next
         End If
         
         If SW_OpState = 0 Then
-            LoadTitle = vbNewLine & vbNewLine & vbNewLine & vbNewLine & vbNewLine & "Загрузка..." & vbNewLine & vbNewLine & sConfig.sSourceName
+            LoadTitle = vbNewLine & vbNewLine & vbNewLine & vbNewLine & vbNewLine & "Р—Р°РіСЂСѓР·РєР°..." & vbNewLine & vbNewLine & sConfig.sSourceName
         End If
             
         'load base
@@ -3521,7 +3521,7 @@ On Error Resume Next
 
 '    Dim UsedSize As Long
 '    Dim UsedOffs As Long
-'        ограничить размер загружаемого текста
+'        РѕРіСЂР°РЅРёС‡РёС‚СЊ СЂР°Р·РјРµСЂ Р·Р°РіСЂСѓР¶Р°РµРјРѕРіРѕ С‚РµРєСЃС‚Р°
 '        Dim Limited As Boolean
 '        UsedSize = 7000 + RNDINT(1000)
 '        Limited = UsedSize < RawSize
@@ -3537,7 +3537,7 @@ On Error Resume Next
         Init1 = GetTickCount
         Mstr = Replace$(Mstr, Chr$(10&) & Chr$(13&), vbNewLine, 1&, -1&)
         
-'        ограничить размер загружаемого текста
+'        РѕРіСЂР°РЅРёС‡РёС‚СЊ СЂР°Р·РјРµСЂ Р·Р°РіСЂСѓР¶Р°РµРјРѕРіРѕ С‚РµРєСЃС‚Р°
 '            'fix loaded file part
 '                Dim L1&
 '                L1 = InStr(1&, Mstr, vbNewLine, vbBinaryCompare)
@@ -3589,7 +3589,7 @@ On Error Resume Next
         End If
         
         'show file info
-        MainOut vbNewLine & "Файл:" & vbNewLine & sConfig.sSourceName & vbNewLine & vbNewLine & SWCnt + 1& & vbNewLine & Replace$(FormatNumber(RawSize / 1024, 2&), Chr$(0&), Chr(32), 1&, -1&, vbBinaryCompare) & " кб" & vbNewLine & vbNewLine & "I1: " & Init1 & vbNewLine & "I2: " & Init2 & vbNewLine & "I3: " & Init3 & vbNewLine & vbNewLine & "DONE", vbCenter
+        MainOut vbNewLine & "Р¤Р°Р№Р»:" & vbNewLine & sConfig.sSourceName & vbNewLine & vbNewLine & SWCnt + 1& & vbNewLine & Replace$(FormatNumber(RawSize / 1024, 2&), Chr$(0&), Chr(32), 1&, -1&, vbBinaryCompare) & " РєР±" & vbNewLine & vbNewLine & "I1: " & Init1 & vbNewLine & "I2: " & Init2 & vbNewLine & "I3: " & Init3 & vbNewLine & vbNewLine & "DONE", vbCenter
 End Sub
 
 Private Sub aux_showAbout()
@@ -3606,7 +3606,7 @@ Private Sub aux_showAbout()
                 Call sb_RandomSigns(RndPhrase, 0, 1)
             End If
         Else
-            RndPhrase = "АБАСРАЦА"
+            RndPhrase = "РђР‘РђРЎР РђР¦Рђ"
         End If
             
             RndPhrase = LCase$(RndPhrase)
@@ -3622,25 +3622,25 @@ Private Sub aux_showAbout()
 
     'about text
     AboutMsg(10) = "v" & appMajor & "." & appMinor & "." & appBuild
-    '— Сайт —
-    AboutMsg(12) = zcf_nStr("Ћ9Чнн9ищрл9с9ыиь9лщучь9Ћ")
+    'вЂ” РЎР°Р№С‚ вЂ”
+    AboutMsg(12) = zcf_nStr("Р‹9Р§РЅРЅ9РёС‰СЂР»9СЃ9С‹РёСЊ9Р»С‰СѓС‡СЊ9Р‹")
     AboutMsg(13) = zcf_nStr("qmmi#66or7zvt6|u|zmkvmxk}")
     AboutMsg(14) = zcf_nStr("sook!4|~txror~h5lh4wnuzhtw~")
 
     
-    '—— Создатель ——
-    AboutMsg(16) = zcf_nStr("(’%Ессчех%фчечам)%чапфчлз%н%клфчлз%’(")
+    'вЂ”вЂ” РЎРѕР·РґР°С‚РµР»СЊ вЂ”вЂ”
+    AboutMsg(16) = zcf_nStr("(вЂ™%Р•СЃСЃС‡РµС…%С„С‡РµС‡Р°Рј)%С‡Р°РїС„С‡Р»Р·%РЅ%РєР»С„С‡Р»Р·%вЂ™(")
     AboutMsg(17) = zcf_nStr("{pcpg;papg{tyU`~g;{pa")
     
-    '—— Идея режима "Лирика" и не только ——
-    AboutMsg(19) = zcf_nStr("*ђ'Пгвш'чвбплз'%Мпчпнз%'п'кв'хймынй'ђ*")
+    'вЂ”вЂ” РРґРµСЏ СЂРµР¶РёРјР° "Р›РёСЂРёРєР°" Рё РЅРµ С‚РѕР»СЊРєРѕ вЂ”вЂ”
+    AboutMsg(19) = zcf_nStr("*С’'РџРіРІС€'С‡РІР±РїР»Р·'%РњРїС‡РїРЅР·%'Рї'РєРІ'С…Р№РјС‹РЅР№'С’*")
     AboutMsg(20) = zcf_nStr("fprt|yzJq`zfUxt|y;g`")
 
-    'Случайная фраза
+    'РЎР»СѓС‡Р°Р№РЅР°СЏ С„СЂР°Р·Р°
     AboutMsg(23) = """" & RndPhrase & """"
 
     
-    'Вывод текста
+    'Р’С‹РІРѕРґ С‚РµРєСЃС‚Р°
     MainOut Replace$(Join(AboutMsg, vbNewLine), "'", """", 1&, -1&, vbBinaryCompare), vbCenter
 End Sub
 

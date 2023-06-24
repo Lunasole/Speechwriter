@@ -1,4 +1,4 @@
-Attribute VB_Name = "modSysS"
+﻿Attribute VB_Name = "modSysS"
 Option Explicit
 Private Type tagInitCommonControlsEx
   lngSize As Long

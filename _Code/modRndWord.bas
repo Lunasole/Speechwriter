@@ -1,4 +1,4 @@
-Attribute VB_Name = "modRName"
+п»їAttribute VB_Name = "modRName"
 Option Explicit
 Function rName() As String
 Dim nLen As Integer: nLen = 4 + (RNDINT(10))
@@ -43,49 +43,49 @@ Function nName(ByRef nLen As Long, ByRef StartMap As Byte, ByRef UpCase As Boole
 
 'Table #0 and #1 maps
 'If letter repeats, it chance to be used raising up
-Const cpTable0Map As String = "ааееииооууы"
-Const cpTable1Map As String = "бвгджзклмнпрстфхцчшщй"
+Const cpTable0Map As String = "Р°Р°РµРµРёРёРѕРѕСѓСѓС‹"
+Const cpTable1Map As String = "Р±РІРіРґР¶Р·РєР»РјРЅРїСЂСЃС‚С„С…С†С‡С€С‰Р№"
 
 
 
 'Compactibility table #0
-Const cp224 As String = "еиоуэюя"       'а
-Const cp229 As String = "юя"            'е
-Const cp232 As String = "еюя"           'и
-Const cp238 As String = "еюя"           'о
-Const cp243 As String = "еиюя"          'у
-Const cp251 As String = "еи"            'ы
-'Const cp253 As String = ""              'э
-'Const cp254 As String = ""              'ю
-'Const cp255 As String = ""              'я
+Const cp224 As String = "РµРёРѕСѓСЌСЋСЏ"       'Р°
+Const cp229 As String = "СЋСЏ"            'Рµ
+Const cp232 As String = "РµСЋСЏ"           'Рё
+Const cp238 As String = "РµСЋСЏ"           'Рѕ
+Const cp243 As String = "РµРёСЋСЏ"          'Сѓ
+Const cp251 As String = "РµРё"            'С‹
+'Const cp253 As String = ""              'СЌ
+'Const cp254 As String = ""              'СЋ
+'Const cp255 As String = ""              'СЏ
 
 'Compactibility table #1
-Const cp225 As String = "дзлр"          'б
-Const cp226 As String = "бжклмнпрсцш"   'в
-Const cp227 As String = "вдлнр"         'г
-Const cp228 As String = "вжнрш"         'д
-Const cp230 As String = "бдлмр"         'ж
-Const cp231 As String = "вдлн"          'з
-Const cp234 As String = "влмнр" '& ц    'к
-Const cp235 As String = "жксч"    '& д  'л
-Const cp236 As String = "бждклр"        'м
-Const cp237 As String = "гдцн"          'н
-Const cp239 As String = "лмнртчш"       'п
-Const cp240 As String = "вджзклмнтчщ"   'р
-Const cp241 As String = "вджклмнпртхцш" 'с
-Const cp242 As String = "вклмрш"        'т
-Const cp244 As String = cp225           'ф
-Const cp245 As String = "влнртч"        'х
-'Const cp246 As String = ""              'ц
-Const cp247 As String = "влпрт"         'ч
-Const cp248 As String = "вклмнрт"       'ш
-Const cp249 As String = cp248           'щ
+Const cp225 As String = "РґР·Р»СЂ"          'Р±
+Const cp226 As String = "Р±Р¶РєР»РјРЅРїСЂСЃС†С€"   'РІ
+Const cp227 As String = "РІРґР»РЅСЂ"         'Рі
+Const cp228 As String = "РІР¶РЅСЂС€"         'Рґ
+Const cp230 As String = "Р±РґР»РјСЂ"         'Р¶
+Const cp231 As String = "РІРґР»РЅ"          'Р·
+Const cp234 As String = "РІР»РјРЅСЂ" '& С†    'Рє
+Const cp235 As String = "Р¶РєСЃС‡"    '& Рґ  'Р»
+Const cp236 As String = "Р±Р¶РґРєР»СЂ"        'Рј
+Const cp237 As String = "РіРґС†РЅ"          'РЅ
+Const cp239 As String = "Р»РјРЅСЂС‚С‡С€"       'Рї
+Const cp240 As String = "РІРґР¶Р·РєР»РјРЅС‚С‡С‰"   'СЂ
+Const cp241 As String = "РІРґР¶РєР»РјРЅРїСЂС‚С…С†С€" 'СЃ
+Const cp242 As String = "РІРєР»РјСЂС€"        'С‚
+Const cp244 As String = cp225           'С„
+Const cp245 As String = "РІР»РЅСЂС‚С‡"        'С…
+'Const cp246 As String = ""              'С†
+Const cp247 As String = "РІР»РїСЂС‚"         'С‡
+Const cp248 As String = "РІРєР»РјРЅСЂС‚"       'С€
+Const cp249 As String = cp248           'С‰
 '----------------------------------------'
 
 'Word 1st letter maps
-Const cpStart0Map As String = "абвгдежзиклмнопрстуфхцчшщэюя"
-Const cpStart1Map As String = "бвгджзклмнпрстфхцчшщ"
-Const cpStart2Map As String = "аеиоуэюя"
+Const cpStart0Map As String = "Р°Р±РІРіРґРµР¶Р·РёРєР»РјРЅРѕРїСЂСЃС‚СѓС„С…С†С‡С€С‰СЌСЋСЏ"
+Const cpStart1Map As String = "Р±РІРіРґР¶Р·РєР»РјРЅРїСЂСЃС‚С„С…С†С‡С€С‰"
+Const cpStart2Map As String = "Р°РµРёРѕСѓСЌСЋСЏ"
 
 'loop var
 Dim TLNG As Long
@@ -190,13 +190,13 @@ For TLNG = 1& To nLen
                         If TLNG = nLen Then
                             CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 1&), 1&))
                         Else
-                            CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 2&), 1&)) 'without й
+                            CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 2&), 1&)) 'without Р№
                         End If
                 Else 'normal chars
                         If TLNG = nLen Then
                             CChar = Asc(Mid$(cpTable0Map, 1& + RNDINT(Len(cpTable0Map) - 1&), 1&))
                         Else
-                            CChar = Asc(Mid$(cpTable0Map, 1& + RNDINT(Len(cpTable0Map) - 2&), 1&)) 'without ы
+                            CChar = Asc(Mid$(cpTable0Map, 1& + RNDINT(Len(cpTable0Map) - 2&), 1&)) 'without С‹
                         End If
 '                    CChar = Asc(Mid$(cpTable0Map, 1& + RNDINT(Len(cpTable0Map) - 1&), 1&))
                 End If
@@ -208,9 +208,9 @@ For TLNG = 1& To nLen
 jmpPut:
         RChar = CChar
         If Not bReply Then
-            If CChar = 224 Or CChar = 237 Then 'double а & н
+            If CChar = 224 Or CChar = 237 Then 'double Р° & РЅ
                 bReply = Rnd <= 0.04
-            ElseIf CChar = 232 Or CChar = 238 Then 'double и & о
+            ElseIf CChar = 232 Or CChar = 238 Then 'double Рё & Рѕ
                 bReply = Rnd <= 0.02
             End If
         Else
@@ -229,13 +229,13 @@ End Function
 
 'Public Sub rRewrite(ByRef nName As String)
 ''If letter repeats, it chance to be used raising up
-'Const cpTable0Map As String = "ааееииооууы"
-'Const cpTable1Map As String = "бвгджзклмнпрстфхцчшщй"
+'Const cpTable0Map As String = "Р°Р°РµРµРёРёРѕРѕСѓСѓС‹"
+'Const cpTable1Map As String = "Р±РІРіРґР¶Р·РєР»РјРЅРїСЂСЃС‚С„С…С†С‡С€С‰Р№"
 '
 ''Word 1st letter maps
-'Const cpStart0Map As String = "абвгдежзиклмнопрстуфхцчшщэюя"
-'Const cpStart1Map As String = "бвгджзклмнпрстфхцчшщ"
-'Const cpStart2Map As String = "аеиоуэюя"
+'Const cpStart0Map As String = "Р°Р±РІРіРґРµР¶Р·РёРєР»РјРЅРѕРїСЂСЃС‚СѓС„С…С†С‡С€С‰СЌСЋСЏ"
+'Const cpStart1Map As String = "Р±РІРіРґР¶Р·РєР»РјРЅРїСЂСЃС‚С„С…С†С‡С€С‰"
+'Const cpStart2Map As String = "Р°РµРёРѕСѓСЌСЋСЏ"
 '
 ''Currently selected char code
 'Dim CChar As Byte
@@ -319,7 +319,7 @@ End Function
 '            ElseIf Tlng = Len(nName) Then
 '                CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 1&), 1&))
 '            Else
-'                CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 2&), 1&)) 'without й
+'                CChar = Asc(Mid$(cpTable1Map, 1& + RNDINT(Len(cpTable1Map) - 2&), 1&)) 'without Р№
 '            End If
 '        Else
 '

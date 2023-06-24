@@ -1,4 +1,4 @@
-Attribute VB_Name = "modB"
+﻿Attribute VB_Name = "modB"
 Option Explicit
 
 Function GetHashByte(ByRef Data() As Byte, ModOffset) As Byte

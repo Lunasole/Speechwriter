@@ -1,4 +1,4 @@
-Attribute VB_Name = "modFileAPI"
+﻿Attribute VB_Name = "modFileAPI"
 Option Explicit
 
 Declare Function IsDebuggerPresent Lib "kernel32.dll" () As Long
