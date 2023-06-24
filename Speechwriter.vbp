@@ -1,0 +1,66 @@
+Type=Exe
+Module=modSysS; _Code\XPStyle_init.bas
+Class=clsT; _Code\clsTray.cls
+Module=modF; _Code\CountFiles + SubDirs_incExtensions.bas
+Module=modSysT; _Code\modTray.bas
+Form=FrmMain.frm
+Module=modRName; _Code\modRndWord.bas
+Class=clsC; _Code\CRC32.cls
+Module=modL; _Code\modLife.bas
+Class=clsA; _Code\enc_CRijndael.cls
+Module=modA; _Code\modA.bas
+Module=modB; _Code\modSHash.bas
+Module=modFileAPI; _Code\modDeclares.bas
+ResFile32="_Code\XPStyle.res"
+IconForm="frmMain"
+Startup="frmMain"
+HelpFile=""
+Title="Speechwriter"
+ExeName32="Speechwriter.exe"
+Command32="x'\"
+Name="Speechwriter"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=72
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Lunasole"
+VersionFileDescription=""Closing words""
+VersionProductName="(legacy painful build)"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=0
+
+[CodeSMART]
+Task_UID=27_09_15_01_00_39
+
+[vbAdvance]
+IsConsole=0
+HasStubFile=0
+GenerateMap=0
+TSAware=0
+XPManifest=0
+ResBuildName=.\Speechwriter.dll
+ReplaceIcon=1
+AppIconFile=.\_Icon\sw_n.ico
+SendCommandArgs=0
+SymbDbgPref=0
+RevisionVersion=0
